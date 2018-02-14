@@ -37,8 +37,8 @@ Param(
 	[string] $ResourceGroupLocation = "westeurope",
 	[string] $DeployIndex = "",
 	[string] $ResourceGroupPrefix = "Ubuntu-RG",
-	[string] $AzureUserName = "admin@mytenant.onmicrosoft.com",
-	[string] $AzureUserPassword = "password"
+	[string] $AzureUserName = "admin@<mytenant>.onmicrosoft.com",
+	[string] $AzureUserPassword = "<password>"
 )
 
 # Prepare credentials and login to Azure subscription. 

@@ -30,6 +30,7 @@
     <None Include="Deployment.targets">
       <Visible>False</Visible>
     </None>
+    <None Include="simpleUbuntuVMDelete.ps1" />
     <None Include="simpleUbuntuVMDeploy.ps1" />
   </ItemGroup>
   <Target Name="GetReferenceAssemblyPaths" />
