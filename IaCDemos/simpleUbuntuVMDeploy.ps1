@@ -49,8 +49,8 @@ Login-AzureRmAccount -Credential $AadCred
 # Prepare environment variables.  
 $ResourceGroupName = $ResourceGroupPrefix + $DeployIndex
 $DeploymentName = $ResourceGroupPrefix + "-Dep" + $DeployIndex
-$TemplateUri = "https://raw.githubusercontent.com/ashapoms/azureHybrid/master/AzureHybrid/AzureHybrid/azureHybrid.json"
-$TemplateParameterUri = "https://raw.githubusercontent.com/ashapoms/azureHybrid/master/AzureHybrid/AzureHybrid/azureHybrid.parameters.json"
+$TemplateUri = "https://raw.githubusercontent.com/ashapoms/DelEx2018/master/IaCDemos/simpleUbuntuVM.json"
+$TemplateParameterUri = "https://raw.githubusercontent.com/ashapoms/DelEx2018/master/IaCDemos/simpleUbuntuVM.parameters.json"
 
 # Create a new resource group in given region.  
 New-AzureRmResourceGroup -Name $ResourceGroupName -Location $ResourceGroupLocation -Verbose -Force
