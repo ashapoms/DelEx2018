@@ -55,7 +55,7 @@ $TemplateParameterUri = "https://raw.githubusercontent.com/ashapoms/DelEx2018/ma
 # Create a new resource group in given region.  
 New-AzureRmResourceGroup -Name $ResourceGroupName -Location $ResourceGroupLocation -Verbose -Force
 
-# Start a new deployment in created resource group using local files.
+# Start a new deployment in created resource group using files from repo.
 New-AzureRmResourceGroupDeployment -Name $DeploymentName `
                                        -ResourceGroupName $ResourceGroupName `
                                        -TemplateUri $TemplateUri `
